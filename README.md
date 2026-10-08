@@ -117,34 +117,6 @@ To contribute directly by making changes to the lecture content, you can fork th
 The repository maintainers will review your pull request and may provide feedback or request changes before merging it into the main repository.
 
 
-
-## 🔧 Content Generation and Conversion
-
-The conversion of markdown files to PDF, HTML, and ePub formats is done using `pandoc`, a versatile document converter.
-Pandoc supports a wide range of input and output formats, making it an ideal tool for this purpose.
-Useful resources and links for `pandoc` used in this repository:
-
-- 📖 Official Pandoc documentation: [Link](https://pandoc.org/documentation.html)
-- 🐳 Docker image for Pandoc: 
-    - [Pandoc Core Link](https://hub.docker.com/r/pandoc/core)
-    - [Pandoc Extra with Latex Link](https://hub.docker.com/r/pandoc/extra)
-- 🎨 Gallery of Pandoc templates: [Link](https://pandoc-templates.org/)
-- 📄 Template: [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template?tab=readme-ov-file)
-
-### 🚀 How to use the PDF, HTML and ePub generation scripts
-
-The script `file_generator.sh` can be used to generate PDF, HTML, and ePub versions of the markdown files. 
-It is based on the `Docker` version of `pandoc` and requires `docker` to be installed on your system.
-To generate the files, run the script with the desired output format as an argument. For example, to generate PDF files, use:
-
-```bash
-chmod +x file_generator.sh
-./file_generator.sh
-```
-
-This will create the PDF, HTML, and ePub files in the main directory.
-Already generated files are available in the different subdirectories for each format.
-
 ## 📄 License
 
 This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
